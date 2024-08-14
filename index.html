@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+ <!-- for slick slider -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- end of cdn -->
+
+   <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-custom">
+  <a class="navbar-brand" href="#">Shopping Web</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="bi bi-house-door-fill"></i>Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About us</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+          Products
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Photography's</a>
+          <a class="dropdown-item" href="#">Natural</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Aesthetic</a>
+          <a class="dropdown-item" href="#">Functional</a>
+          <a class="dropdown-item" href="#">Event</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"><i class="bi bi-telephone-fill"></i>Contact us</a>
+      </li>
+    </ul>
+      <span class="navbar-text">
+      <a href="#registermodal" data-toggle="modal"> <i class="bi bi-ui-checks"></i>Register </a> &nbsp;&nbsp;
+      <a href="#loginmodal" data-toggle="modal"> <i class="bi bi-box-arrow-in-right"></i>Login </a>
+    </span>
+  </div>
+</nav>
+
+<div class="jumbotron">
+
+  <div id="textdata">
+  <h1 class="display-4">Welcome to My Photography World</h1>
+  <p class="lead">Summer Offer 50% off on all types of Photography</p>
+  <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+ <p class="lead">
+  <a class="btn btn-outline-primary" href="#" role="button"><i class="bi bi-cart3"></i>Order Now</a>
+ </p> 
+</div>
+
+<div id="imagedata">
+  <img src="images/background.png" class="img-fluid">
+</div>
+</div>
+
+<!-- about us section -->
+
+<div class="container" id="about">
+  <h1 class="my-3">About us</h1>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="images/jumbotron.png" class="img-fluid">
+    </div>
+    <div class="col-md-6">
+     <p> 
+
+A photographer (from Greek φῶς (phos), meaning "light", and γραφή (graphê), meaning "drawing, writing", together meaning "drawing with light") is someone who is skilled at taking pictures or photographs with a camera. An amateur photographer takes pictures for their own use. A professional photographer takes pictures as all or part of their job. Many people hire a photographer for their wedding, debutante party or other special events. Photographers work in many different specialties.
+
+</p>
+<p>
+They correct photos with software, add captions, and send them to their editors. Many news photographers also shoot rapid sequences of film as short videos.
+</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- end of about us section -->
+
+ 
+
+
+
+<!-- slick slider -->
+
+<!-- product section -->
+<div class="container" id="product">
+  <h1 class="text-center">Photography</h1>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card">
+       <div class="card-body">
+         <img src="images/flower4.jpg" class="img-fluid">
+       </div>
+      <div class="card-footer">
+        <button class="btn btn-info">Price- 100</button>
+        <img src="images/add.png" id="addtocart">
+      </div>
+    </div>
+  </div>
+
+    <div class="col-md-3">
+      <div class="card">
+       <div class="card-body">
+         <img src="images/flower1.jpg" class="img-fluid">
+       </div>
+      <div class="card-footer">
+        <button class="btn btn-info">Price- 120</button>
+        <img src="images/add.png" id="addtocart">
+      </div>
+    </div>
+  </div>
+
+     <div class="col-md-3">
+      <div class="card">
+      <div class="card-body">
+        <img src="images/flower2.jpg" class="img-fluid">
+      </div>
+        <div class="card-footer">
+          <button class="btn btn-info">Price - 100 </button>
+          <img src="images/add.png" id="addtocart">
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+      <div class="card-body">
+        <img src="images/flower3.jpg" class="img-fluid">
+      </div>
+        <div class="card-footer">
+          <button class="btn btn-info"> Price - 120 </button>
+          <img src="images/add.png" id="addtocart">
+        </div>
+      </div>
+    </div>
+  <!-- end of first row -->
+
+  <div class="row my-3">
+<div class="col-md-3">
+  <div class="card">
+      <div class="card-body">
+        <img src="images/p1.jpg" class="img-fluid">
+      </div>
+        <div class="card-footer">
+          <button class="btn btn-info"> Price - 150 </button>
+          <img src="images/add.png" id="addtocart">
+        </div>
+      </div>
+    </div>
+
+<div class="col-md-3">
+  <div class="card">
+      <div class="card-body">
+        <img src="images/p2.jpg" class="img-fluid">
+      </div>
+        <div class="card-footer">
+          <button class="btn btn-info"> Price - 200 </button>
+          <img src="images/add.png" id="addtocart">
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+      <div class="card-body">
+        <img src="images/p3.jpg" class="img-fluid">
+      </div>
+        <div class="card-footer">
+          <button class="btn btn-info"> Price - 150 </button>
+          <img src="images/add.png" id="addtocart">
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+      <div class="card-body">
+        <img src="images/p4.jpg" class="img-fluid">
+      </div>
+        <div class="card-footer">
+          <button class="btn btn-info"> Price - 200 </button>
+          <img src="images/add.png" id="addtocart">
+        </div>
+      </div>
+    </div>
+
+
+<!-- end of second row -->
+
+<!-- end of slick slider -->
+
+<!-- end of product section -->
+
+<!-- slick slider -->
+
+<div class="container">
+  <h1 class="text-center">Our team</h1>
+<div class="row slider">
+<div class="col-md-12">
+<img src="images/team1.jpg">
+</div>
+<div class="col-md-12">
+<img src="images/team2.jpg">
+</div>
+<div class="col-md-12">
+<img src="images/team3.jpg">
+</div>
+<div class="col-md-12">
+<img src="images/team4.jpg">
+</div>
+<div class="col-md-12">
+<img src="images/team5.jpg">
+</div>
+<div class="col-md-12">
+<img src="images/team6.jpg">
+</div>
+</div>
+</div>
+
+ <!-- end of slick slider -->
+
+<div class="footer">
+<div class="container">
+  <div class="row">
+<div class="col-md-3">
+  <h3><i class="bi bi-bootstrap-fill">Bootstrap</i></h3>
+  <p> designed and built with all the love in the world by the bootstrap team with the help of our contributors.
+  code licened MIT,docs CC BY 3.0.</p>
+</div>
+<div class="col-md-9">
+  <div class="row">
+    <div class="col-md-3">
+      <h3>Links</h3>
+    <ul>
+    <li><i class="bi bi-arrow-up-right-square-fill"></i>Home</li>
+    <li><i class="bi bi-arrow-up-right-square-fill"></i>Docs</li>
+    <li><i class="bi bi-arrow-up-right-square-fill"></i>Example</li>
+    <li><i class="bi bi-arrow-up-right-square-fill"></i>Icons</li>
+    <li><i class="bi bi-arrow-up-right-square-fill"></i>Thems</li>
+    <li><i class="bi bi-arrow-up-right-square-fill"></i>Blog</li>
+    <li><i class="bi bi-arrow-up-right-square-fill"></i>Swag Store</li>
+    </ul>  
+  </div>
+
+   <div class="col-md-3">
+  </div>
+
+   <div class="col-md-3">
+  </div>
+
+   <div class="col-md-3">
+  </div>
+
+  <div class="col-md-3">
+  </div>
+
+
+
+</div><!-- inner row -->
+</div> <!-- 9 ka close -->
+</div> 
+</div>
+</div>
+
+<div class="container text-center">
+<div calass="row">
+  <div class="social_icons">
+
+    <i class="bi bi-instagram"></i>
+    <i class="bi bi-whatsapp"></i>
+    <i class="bi bi-twitter"></i>
+  </div>
+</div>
+</div>
+
+
+
+<!-- register modal -->
+<div class="modal" tabindex="-1" role="dialog" id="registermodal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Register</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <div class="modal-body">
+        <form>
+          <div class="form-group">
+    <label for="exampleInputFullname">Full name</label>
+    <input type="text" class="form-control" id="exampleInputFullname" aria-describedby="emailHelp" placeholder="Enter exampleInputFullname">
+   
+  </div>
+  <div class="form-group">
+   <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+   <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputContact">Contact</label>
+    <input type="tel" class="form-control" id="exampleInputContact" placeholder="Contact">
+  </div>
+
+
+       <button type="submit" class="btn btn-primary">Register</button>
+  <p>Already have an Account?<a href="#loginmodal" data-toggle="modal"> Sign In</a></p>
+</form>
+      </div>
+      <div class="modal-footer">
+       
+        <button type="button" class="btn btn-primary">Close</button>
+      </div>
+    </div>
+   </div>
+</div>
+<!-- end of register modal -->
+
+<!-- login modal -->
+<div class="modal" tabindex="-1" role="dialog" id="loginmodal">
+  <div class="modal-dialog" role="documnet">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+       <div class="modal-body">
+        <form>
+         
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+
+
+ 
+  <button type="submit" class="btn btn-primary">Login</button>
+  <p>Don't have an Account?<a href="#registermodal"> Sign up</a></p>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- slick slider -->
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.5.2/jquery-migrate.min.js" integrity="sha512-BzvgYEoHXuphX+g7B/laemJGYFdrq4fTKEo+B3PurSxstMZtwu28FHkPKXu6dSBCzbUWqz/rMv755nUwhjQypw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+  $('.slider').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay: true,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    
+  ]
+});
+
+</script>
+
+
+<!-- end of slick slider -->
+
+
+
+ </body>
+</html>
